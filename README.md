@@ -1,7 +1,9 @@
 DeepG  <a href="https://www.sri.inf.ethz.ch/"><img width="100" alt="portfolio_view" align="right" src="http://safeai.ethz.ch/img/sri-logo.svg"></a>
 =============================================================================================================
 This DeepG is the speclized version for ERAN installation. The original DeepG causes compilation confusion due to the wrong setting of GUROBI_FLAGS. In this repo, the flag is set to be -lgurobi90 instead of -lgurobi81.
+
 The description of original DeepG is given as followed.
+
 DeepG is state-of-the-art system for certification of robustness of neural networks to geometric transformations. The key idea behind DeepG is to efficiently compute linear constraints of common geometric transformations. These constraints are then used as inputs to the state-of-the-art verifier [ERAN](https://github.com/eth-sri/eran/) which can then use these constraints to prove robustness of a neural network. 
 The method is based on our [NeurIPS 2019](https://files.sri.inf.ethz.ch/website/papers/neurips19-deepg.pdf) paper and repository contains all code necessary to reproduce the results from the paper.
 The system is developed at the [SRI Lab, Department of Computer Science, ETH Zurich](https://www.sri.inf.ethz.ch/) as part of the [Safe AI project](http://safeai.ethz.ch/).
